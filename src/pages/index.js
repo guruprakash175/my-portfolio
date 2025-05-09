@@ -96,21 +96,18 @@ export default function Home() {
       description:
         "Built a ransomware detection web app with real-time monitoring, signature/honeypot detection, Kernel Kill Switch, and Docker-based rollback system. Integrated alerts and provided user-friendly executables.",
       tech: ["React", "Node.js", "Express", "Python", "C", "Docker"],
-      image: "/api/placeholder/400/250",
     },
     {
       title: "LMS for Secured Computing",
       description:
         "Developing a Learning Management System focused on cryptography education with secure computing principles. Features interactive cryptographic implementations and secure data management.",
       tech: ["HTML", "CSS", "React", "Node.js", "Express", "MongoDB"],
-      image: "/api/placeholder/400/250",
     },
     {
       title: "Anti-virus Software with Real-time Protection",
       description:
         "Creating antivirus software with real-time protection, quick scanning, ransomware detection, and chatbot integration. Implemented Docker-based recovery and alert systems.",
       tech: ["MERN Stack", "C", "Python", "Docker"],
-      image: "/api/placeholder/400/250",
     },
   ];
 

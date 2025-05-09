@@ -1,9 +1,9 @@
-import DecryptedText from "../app/DecryptedText";
-import guruprakash from "../assets/guruprakash.png";
+import DecryptedText from "../components/DecryptedText";
+import guruprakash from "../../public/assets/guruprakash.png";
 // Import styles if you're using CSS modules
 // import './path/to/DecryptedText.css';
 
-const AboutSection = () => {
+const Aboutsection = () => {
   return (
     <section className="about-section">
       <h2 className="section-title">
@@ -112,4 +112,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default Aboutsection;
