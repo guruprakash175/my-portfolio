@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+// File: next.config.js
 
-const nextConfig: NextConfig = {
-  /* config options here */
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ["api.placeholder.com"],
+  },
+  // Enable CSS modules and SASS support
+  sassOptions: {
+    includePaths: ["./styles"],
+  },
 };
-
-export default nextConfig;
